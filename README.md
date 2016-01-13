@@ -1,2 +1,3 @@
-# global-docs
-Global place for the ONGR topics/faq
+# ONGR Global docs
+
+This is a global place for the ONGR topics/faq.
