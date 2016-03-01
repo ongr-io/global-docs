@@ -6,4 +6,4 @@ ONGR is a free and open set of Symfony bundles for scaling online E-Commerce pla
 
 ## How to start?
 
-At first you can do a quick and easy setup of the ONGR Demo app, following the [instructions here](README). Or you can go throught the profound documentation of each of the bundles, following the links in the left side-bar.
+At first you can do a quick and easy setup of the ONGR Demo app, following the [instructions here](/commons/README). Or you can go throught the profound documentation of each of the bundles, following the links in the left side-bar.
