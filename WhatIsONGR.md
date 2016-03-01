@@ -1,9 +1,9 @@
 # Welcome to the ONGR
 
-## What is ONGR ??
+## What is ONGR??
 
-ONGR is a free and open platform for scaling online business models, built by successful entrepeneurs for successful 
-entrepreneurs. No matter if you run an Online Shop, a Meta Search Engine or a Travel Website - ONGR will help to scale 
-your success by solving your speed issues and enable your engineers to iterate much faster than before!
+ONGR is a free and open set of Symfony bundles for scaling online E-Commerce platforms. No matter if you run an Online Shop, a Meta Search Engine or a Travel Website - ONGR will help you to scale your success by solving your speed issues and enable your engineers to iterate much faster than before!
 
-> `<------` This page is not finished yet, for more info look at the sidebar
+## How to start?
+
+At first you can do a quick and easy setup of the ONGR Demo app, following the [instructions here] (http://docs.ongr.io/common/README). Or you can go throught the profound documentation of each of the bundles, following the links in the left side-bar.
