@@ -10,13 +10,28 @@ We are focusing on robust, code base clean and future proof, so we expect the sa
 
 Discussion regarding issues, bugs, new features, and questions about implementation of new features takes place in the 
 [![Join the chat at https://gitter.im/ongr-io/support](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/ongr-io/support).
- Before start to work on some PR we recommend to come and ask about it, just to make sure you know everything and your work will give a benefit.
+ Before you start to work on some PR we recommend to come and ask about it, just to make sure you know everything and your work will give a benefit.
 
 
 ## Which branch ??
 
-We only accept pull requests to master branch. You should only open pull requests against the master branch. 
-Otherwise we cannot accept the pull request. Don't worry we will take care for other versions branch'es by our self.
+This depends on what contribution you want to make. First of all, create an issue about the problem you are facing, fork the repository and then follow the steps below.
+
+### Bugs
+
+If you've found a bug, first double check the documentation or contact ONGR team in the chat if you're not misusing the components.
+ If it really looks like a bug, create an issue about it, providing clear title, description and, if possible, examples of the environment that the problem occurs.
+ Now you must determine which stable version of the component was the one that the feature holding the bug in question was first introduced.
+ In your git fork of the component create a new topic branch from the branch that represents that version. For example if the current stable
+ version is `3.0`, but the feature that has the bug you want to fix was introduced in `1.0`, you will have to create the branch and create a a pull request
+ to the branch `1.0`. When your changes will be merged, the changes will be applied to all higher branches and we will release a patch that holds your changes.
+ Lastly, don't forget to mention the issue number that the bug fix corresponds to at the bottom of your pull requests description, like so: `closes #34`.
+
+### New features
+
+The procedure of submitting a new feature is somewhat similar, you should also engage in a discussion to clarify the details of the feature, open an issue about it
+ and then start working on it. The difference from submitting a bug fix here is that the pull requests with the new features should be submitted to the `master` branch
+ of the components GIT repository. The `master` branch is dedicated for development of new features that are added in the new versions of the ONGR components.
 
 
 ## Coding standard
