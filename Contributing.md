@@ -5,14 +5,6 @@ First of all thank you for contributing to ONGR!
 Before you start to work on your PR here are some guidelines that you need to follow. 
 We are focusing on robust, code base clean and future proof, so we expect the same from you :wink:.
 
-
-## Development discussion
-
-Discussion regarding issues, bugs, new features, and questions about implementation of new features takes place in the 
-[![Join the chat at https://gitter.im/ongr-io/support](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/ongr-io/support).
- Before you start to work on some PR we recommend to come and ask about it, just to make sure you know everything and your work will give a benefit.
-
-
 ## Which branch ??
 
 This depends on what contribution you want to make. First of all, create an issue about the problem you are facing, fork the repository and then follow the steps below.
