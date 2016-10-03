@@ -9,8 +9,8 @@ We are focusing on robust, code base clean and future proof, so we expect the sa
 ## Development discussion
 
 Discussion regarding issues, bugs, new features, and questions about implementation of new features takes place in the 
-[![Join the chat at https://gitter.im/ongr-io/support](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/ongr-io/support).
- Before you start to work on some PR we recommend to come and ask about it, just to make sure you know everything and your work will give a benefit.
+related Github issues or pull request comments.
+ Before you start to work on some PR we recommend to create the issue and ask about it, just to make sure your work will give a benefit and you will not waist your time.
 
 
 ## Which branch ??
@@ -47,7 +47,7 @@ vendor/bin/phpcs -p --standard=PSR2 --ignore=vendor/,Tests/app/ ./
 
 ```
 
-> We assume that you already updated bundle's vendors via composer.
+> We assume that you already updated bundle's vendors via composer. (run `composer install` in the bundle root)
 
 
 Some small issues related with spaces,new lines and etc might be fixed with `phpcbf` which comes together with code sniffer. To perform a fixes run:
@@ -62,8 +62,8 @@ vendor/bin/phpcbf -p --standard=PSR2 --ignore=vendor/,Tests/app/ ./
 ## Tests
 
 At the ONGR we have 2 types of tests. There are Functional and Unit tests. Before submitting a pull request make sure you are not
- introducing lower code coverage than before. We are using [Coverals.io](https://coveralls.io) to perform a check. If there will be lower
- test coverage the pull request will fail.
+ introducing lower code coverage than before. We are using [Coverals.io](https://coveralls.io/github/ongr-io) to perform a check. If there will be lower
+ test coverage of the pull request will fail.
  
 * **Unit tests**: For Unit tests we are testing only current class/function behaviour with "black box" testing. We provide some input and 
  looking to get predefined output. There cannot be any third party connection or relation within a class. If there are some, everything has to be mocked.
@@ -80,7 +80,7 @@ vendor/bin/phpunit
 
 ```
 
-> We assume that you already updated bundle's vendors via composer.
+> We assume that you already updated bundle's vendors via composer. (run `composer install` in the bundle root)
 
 
 ## Docs
